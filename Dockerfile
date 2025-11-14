@@ -24,8 +24,8 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Copiar los archivos estáticos generados por Astro
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Exponer puerto 4321
-EXPOSE 4321
+# Exponer puerto 80
+EXPOSE 80
 
 # Comando para iniciar Nginx
 CMD ["nginx", "-g", "daemon off;"]
