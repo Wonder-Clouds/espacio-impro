@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/layout/Footer.astro';
+import ContactoCompleto from '../components/contacto/ContactoCompleto';
+import FAQ from '../components/home/FAQ';
+---
+
+<Layout title="Contáctanos - Espacio Impro">
+  <ContactoCompleto client:only="react" />
+  <FAQ client:only="react" />
+  <Footer />
+</Layout>

@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeroNosotros from '../components/nosotros/HeroNosotros';
+import MisionVision from '../components/nosotros/MisionVision';
+import NuestraHistoria from '../components/nosotros/NuestraHistoria';
+import Principios from '../components/nosotros/Principios';
+import CarouselComunidad from '../components/nosotros/CarouselComunidad';
+import CTASection from '../components/nosotros/CTASection';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<Layout title="Nosotros - Espacio Impro">
+  <HeroNosotros client:only="react" />
+  <MisionVision client:only="react" />
+  <NuestraHistoria client:only="react" />
+  <Principios client:only="react" />
+  <CarouselComunidad client:only="react" />
+  <CTASection client:only="react" />
+  <Footer />
+</Layout>

@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GaleriaMasonry from '../components/galeria/GaleriaMasonry';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<Layout title="Galería - Espacio Impro">
+  <GaleriaMasonry client:only="react" />
+  <Footer />
+</Layout>
