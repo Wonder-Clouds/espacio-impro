@@ -1,11 +1,22 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Hero from '../components/home/Hero.tsx';
+import Pilares from '../components/home/Pilares.tsx';
+import CarouselVisual from '../components/home/CarouselVisual.tsx';
+import Manifiesto from '../components/home/Manifiesto.tsx';
+import Metodologia from '../components/home/Metodologia.tsx';
+import ContactSection from '../components/home/ContactSection.tsx';
+import FAQ from '../components/home/FAQ.tsx';
+import Footer from '../components/layout/Footer.astro';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Espacio Impro Cusco">
+  <Hero client:only="react" />
+  <Pilares client:only="react" />
+  <CarouselVisual client:only="react" />
+  <Manifiesto client:only="react" />
+  <Metodologia client:only="react" />
+  <ContactSection client:only="react" />
+  <FAQ client:only="react" />
+  <Footer />
 </Layout>

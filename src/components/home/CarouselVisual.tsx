@@ -67,9 +67,9 @@ export default function CarouselVisual() {
   }, []);
 
   return (
-    <section className="py-20 md:py-32 bg-white relative overflow-hidden">
+    <section className="pt-20 pb-6 md:pt-32 md:pb-8 bg-white relative overflow-hidden">
       {/* Título y texto - con container */}
-      <div className="container mx-auto px-4 mb-16">
+      <div className="container mx-auto px-4 mb-8">
         <motion.div
           className="text-center"
           initial={{ opacity: 0, y: 30 }}
@@ -84,23 +84,23 @@ export default function CarouselVisual() {
             Cada creación es distinta, pero todas nacen de la misma raíz:
             <strong> escucha, cuerpo y transformación.</strong>
           </p>
-        </motion.div>
 
-        {/* Frases animadas */}
-        <div className="mt-12 min-h-20 flex items-center justify-center">
-          <AnimatePresence mode="wait">
-            <motion.h3
-              key={currentFrase}
-              className="font-gliker text-3xl md:text-4xl lg:text-5xl text-lavanda text-center"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.5 }}
-            >
-              {frases[currentFrase]}
-            </motion.h3>
-          </AnimatePresence>
-        </div>
+          {/* Frases animadas */}
+          <div className="mt-12 mb-16 md:mb-20 min-h-20 flex items-center justify-center">
+            <AnimatePresence mode="wait">
+              <motion.h3
+                key={currentFrase}
+                className="font-gliker text-3xl md:text-4xl lg:text-5xl text-lavanda text-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.5 }}
+              >
+                {frases[currentFrase]}
+              </motion.h3>
+            </AnimatePresence>
+          </div>
+        </motion.div>
       </div>
 
       {/* Carrusel con padding y contenedor */}

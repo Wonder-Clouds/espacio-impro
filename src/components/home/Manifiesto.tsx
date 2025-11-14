@@ -20,7 +20,7 @@ export default function Manifiesto() {
   }, []);
 
   return (
-    <section className="py-32 bg-linear-to-br from-lavanda-50 to-carmin-50 relative overflow-hidden">
+    <section className="pt-6 pb-16 md:pt-8 md:pb-24 bg-linear-to-br from-lavanda-50 to-carmin-50 relative overflow-hidden">
       {/* Textura de fondo sutil */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
