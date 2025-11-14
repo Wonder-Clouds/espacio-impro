@@ -9,6 +9,8 @@ services:
     ports:
       - "4321:4321"
     restart: unless-stopped
+    environment:
+      - SITE=https://espacio.wonderclouds.dev
     networks:
       - espacio-impro-network
     healthcheck:
