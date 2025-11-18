@@ -5,11 +5,14 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const frases = [
-  "Impro es investigación.",
-  "Impro es comunidad.",
-  "Impro es memoria.",
-  "Impro es riesgo.",
-  "Impro es libertad."
+  "Actuar es investigación.",
+  "Actuar es comunidad.",
+  "Actuar es memoria.",
+  "Actuar es riesgo.",
+  "Actuar es libertad.",
+  "Actuar es presente.",
+  "Actuar es descubrir.",
+  "Actuar es jugar."
 ];
 
 // Lista de imágenes con mejor relación de aspecto para el carrusel (horizontales 3:2)
@@ -81,8 +84,8 @@ export default function CarouselVisual() {
             IMPROVISAMOS DESDE EL PRESENTE
           </h2>
           <p className="font-inter text-lg md:text-xl text-gris-700 max-w-3xl mx-auto leading-relaxed">
-            Cada creación es distinta, pero todas nacen de la misma raíz:
-            <strong> escucha, cuerpo y transformación.</strong>
+            Cada creación es distinta, pero todas comparten:
+            <strong> la escucha colectiva, el cuerpo disponible y el descubrir.</strong>
           </p>
 
           {/* Frases animadas */}

@@ -26,14 +26,14 @@ export default function NuestraHistoria() {
     {
       year: '2015',
       title: 'Los Inicios',
-      description: 'Las personas que integran esta agrupación comenzaron a trabajar juntas, explorando la improvisación como un espacio de encuentro creativo y libertad escénica. Desde el principio, el interés fue salir del "cliché" de la impro como pura comedia y explorarla como código interpretativo teatral.',
+      description: 'Las personas que integran esta agrupación comenzaron a trabajar juntas, explorando la improvisación como un espacio de encuentro creativo y libertad escénica, descubriendo en el camino múltiples posibilidades para desarrollar la improvisación como parte del teatro.',
       icon: Sparkles,
       titleColor: '#6c648b'
     },
     {
       year: '2022',
       title: 'Formalización',
-      description: 'Se formalizó oficialmente como Compañía Teatral Espacio Escénico Impro, consolidando su identidad artística y pedagógica. Esta formalización marca el compromiso con la improvisación teatral, la formación constante, y la creación de espacios seguros con perspectiva de género.',
+      description: 'Se formalizó oficialmente como Compañía Teatral Espacio Escénico Impro, consolidando su identidad artística y pedagógica. Esta formalización marca el compromiso con la improvisación teatral, la formación constante, y la creación de espacios seguros con perspectiva de género y compromiso social.',
       icon: Calendar,
       titleColor: '#ff657a'
     },

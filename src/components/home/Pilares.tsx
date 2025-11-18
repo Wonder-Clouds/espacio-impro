@@ -6,9 +6,9 @@ import { Sparkles, Users, Search } from 'lucide-react';
 const pilares = [
   {
     id: 1,
-    title: "ME PERMITO",
+    title: "PERMITIRSE",
     subtitle: "Todo es cuestión de permisos",
-    text: "Me permito ser, estar, hacer. Desafío mis propios límites internos. Habitar la impro es autorizarme a existir sin pedir permiso al miedo. El permiso es un acto político y poético: me abro al riesgo de habitarme.",
+    text: "Me permito ser, estar, hacer. Desafío mis propios límites internos. Habitar la impro es autorizarme a existir sin pedir permiso al miedo. Me abro al riesgo de habitarme y habitar la escena.",
     color: "from-dorado to-dorado-600",
     textColor: "text-dorado-900",
     icon: Sparkles,
@@ -16,9 +16,9 @@ const pilares = [
   },
   {
     id: 2,
-    title: "PERTENEZCO",
+    title: "PERTENECER",
     subtitle: "Todxs estamos en la misma barca",
-    text: "Improvisar es escucharnos. Ningún cuerpo actúa solo: nos afectamos, nos acompañamos, nos sostenemos. Pertenecer es reconocer que toda escena se construye en red, y que mi libertad también nace de la tuya.",
+    text: "Improvisar es escucharnos. Ningún cuerpo actúa solo: nos afectamos, nos acompañamos, nos sostenemos. Pertenecer es reconocernos en sociedad, que toda escena se construye en red y que mi libertad también nace de la tuya",
     color: "from-carmin to-carmin-600",
     textColor: "text-carmin-900",
     icon: Users,
@@ -26,7 +26,7 @@ const pilares = [
   },
   {
     id: 3,
-    title: "PROFUNDIZO",
+    title: "PROFUNDIZAR",
     subtitle: "Detrás de todas las paredes está el cielo",
     text: "Profundizar es resistir la superficialidad. Cuestiono, busco sentido, dejo que el cuerpo piense. En cada improvisación hay una pregunta viva, una búsqueda que no se conforma con lo evidente.",
     color: "from-acero to-acero-600",
@@ -58,7 +58,7 @@ export default function Pilares() {
             NUESTROS PILARES
           </h2>
           <p className="font-gliker text-xl md:text-2xl text-gris-700">
-            Tres maneras de habitar la escena
+            Filosofía de espacio impro
           </p>
         </motion.div>
 

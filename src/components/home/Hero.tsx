@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 const dynamicPhrases = [
   "habitar el presente.",
   "habitar el cuerpo.",
-  "habitar la libertad."
+  "habitar la escena."
 ];
 
 const colors = [
@@ -87,7 +87,7 @@ export default function Hero() {
           >
             <span className="text-gris-900">COMPAÑÍA TEATRAL</span>
             <br />
-            <span style={{ color: '#117cb2' }}>ESPACIO IMPRO</span>
+            <span style={{ color: '#117cb2' }}>ESPACIO ESCÉNICO IMPRO</span>
           </motion.h1>
 
           {/* Frases dinámicas con efecto typewriter en la misma línea */}

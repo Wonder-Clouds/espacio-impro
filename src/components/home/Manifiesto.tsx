@@ -4,9 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
 const frases = [
-  "Decimos sí al riesgo de vivir con presencia.",
+  "Decimos si al riesgo de vivir en presencia.",
   "Decimos sí a la creación compartida.",
-  "Decimos sí al misterio de transformarnos improvisando.",
+  "Decimos sí al vértigo de descubrir lo inesperado.",
+  "Decimos sí al error y lo transformamos en un regalo.",
 ];
 
 export default function Manifiesto() {
