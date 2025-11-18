@@ -35,10 +35,13 @@ jobs:
             echo "🛑 Deteniendo contenedor anterior"
             podman-compose stop espacio-impro || true
 
+            echo "🗑️ Eliminando contenedor anterior si existe"
+            podman rm -f espacio-impro-web || true
+
             echo "⚙️ Construyendo imagen actualizada"
             podman-compose build espacio-impro
 
-            echo "🚀 Levantando servicio espacio-impro"
-            podman-compose up -d espacio-impro
+            echo "🚀 Levantando servicio espacio-impro con recreación forzada"
+            podman-compose up -d --force-recreate --remove-orphans espacio-impro
 
             echo "✅ Despliegue finalizado correctamente"
