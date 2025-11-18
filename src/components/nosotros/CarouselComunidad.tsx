@@ -66,7 +66,7 @@ export default function CarouselComunidad() {
             NUESTRA COMUNIDAD
           </h2>
           <p className="font-gliker text-xl md:text-2xl text-gris-700 italic">
-            Momentos que nos definen
+            Momentos compartidos
           </p>
         </motion.div>
 

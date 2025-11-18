@@ -82,15 +82,15 @@ export default function Metodologia() {
             <div className="mt-12 flex gap-4">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-dorado rounded-full" />
-                <span className="font-gliker text-dorado-700 text-lg">Proceso</span>
+                <span className="font-gliker text-dorado-700 text-lg">Permitirse</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-carmin rounded-full" />
-                <span className="font-gliker text-carmin-700 text-lg">Escucha</span>
+                <span className="font-gliker text-carmin-700 text-lg">Profundizar</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-lavanda rounded-full" />
-                <span className="font-gliker text-lavanda-700 text-lg">Presencia</span>
+                <span className="font-gliker text-lavanda-700 text-lg">Pertenecer</span>
               </div>
             </div>
           </motion.div>

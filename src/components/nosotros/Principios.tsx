@@ -6,7 +6,7 @@ import { ChevronDown, Sparkles, Users, Search } from 'lucide-react';
 
 const frasesPrincipios = [
   'Permitirse, pertenecer y profundizar',
-  'Decisiones éticas en escena',
+  'Descubrir para dejarse sorprender',
   'Habitar el presente con presencia',
   'Creación compartida y colectiva',
   'Transformarnos improvisando'
@@ -28,7 +28,7 @@ export default function Principios() {
       id: 1,
       icon: Sparkles,
       titleColor: '#fed056', // Dorado
-      title: 'ME PERMITO',
+      title: 'PERMITIRSE',
       subtitle: 'Todo es cuestión de permisos',
       resumen: 'Me permito ser, estar, hacer, desafiar mis límites internos.',
       content: `Asumo la libertad y doy consentimiento interno a mi propia existencia, más allá de las imposiciones externas o los "deber ser". Aceptar la libertad propia implica también aceptar el proyecto vital como construcción continua, no es un estado pasivo, sino una afirmación activa del derecho a existir en singularidad.
@@ -43,7 +43,7 @@ Cuando me permito, me afirmo en el devenir, más allá del miedo, del deber y de
       id: 2,
       icon: Users,
       titleColor: '#ff657a', // Carmin
-      title: 'PERTENEZCO',
+      title: 'PERTENECER',
       subtitle: 'Todxs estamos en la misma barca',
       resumen: 'Pertenezco a un grupo, tengo responsabilidad social y conciencia de clase.',
       content: `Somos cuerpos vulnerables, interdependientes. Pertenecer implica aceptar que nadie se basta a sí mismo, y que la performance de cualquier identidad (y escena) se construye siempre en lo colectivo. El cuerpo en la impro no actúa solo: escucha, reacciona, acompaña, se afecta.
@@ -58,7 +58,7 @@ Al pertenecer me reconozco en la red de interdependencias. Acepto que mi liberta
       id: 3,
       icon: Search,
       titleColor: '#117cb2', // Azul acero
-      title: 'PROFUNDIZO',
+      title: 'PROFUNDIZAR',
       subtitle: 'Detrás de todas las paredes está el cielo',
       resumen: 'Me cuestiono, me formo, busco sentido en el hacer.',
       content: `El ser humano no está simplemente "ahí", sino que es en la medida en que se pregunta por el ser. Profundizar es habitar el misterio, no conformarse con la superficie del hacer. En la impro, lo efímero no es lo superficial: es la materia viva del sentido.
@@ -111,12 +111,12 @@ Cuando profundizo, dejo que el cuerpo filosofe.`,
 
           <div className="max-w-3xl mx-auto font-inter text-base md:text-lg text-gris-700 leading-relaxed space-y-4">
             <p className="italic">
-              Improvisar no es llenar un vacío con ocurrencias, sino habitar el presente con todo lo que somos: nuestras dudas, nuestras historias, nuestras ganas de sentido. En esta escuela, permitirse, pertenecer y profundizar no son solo actos escénicos: son decisiones éticas.
+              Improvisar no es llenar un vacío con ocurrencias, sino habitar el presente con todo lo que somos: nuestras dudas, nuestras historias, <strong>nuestras ganas de sentido, para descubrir infinitud de universos en el escenario.</strong>  En esta escuela, permitirse, pertenecer y profundizar no son solo actos escénicos: son decisiones.
             </p>
             <p className="font-gliker text-lg">
-              Decimos sí al riesgo de vivir con presencia.<br />
+              Decimos sí al riesgo de vivir en presencia.<br />
               Decimos sí a la creación compartida.<br />
-              Decimos sí al misterio de transformarnos improvisando.
+              Decimos sí al vértigo de descubrir lo inesperado.
             </p>
           </div>
         </motion.div>
