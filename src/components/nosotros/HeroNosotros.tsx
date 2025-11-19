@@ -92,7 +92,7 @@ export default function HeroNosotros() {
                 Espacio Impro es una Escuela y Compañía Teatral que explora la técnica de la improvisación en Cusco, Perú, <strong className="text-acero">promoviendo salir del "cliché" convencional</strong> de la impro orientada solo a la comedia y explorando la técnica como un código interpretativo del teatro.
               </p>
               <p>
-                Desde su fundación, Espacio Impro se ha propuesto <strong className="text-gris-900">descentralizar el teatro y la improvisación en Cusco</strong>, apostando por la formación constante de actorxs improvisadorxs a través de talleres y espacios de aprendizaje compartidos.
+                Desde su fundación, Espacio Impro se ha propuesto <strong className="text-gris-900">descentralizar el teatro y la improvisación en el Perú</strong>, apostando por la formación constante de actorxs improvisadorxs a través de talleres y espacios de aprendizaje compartidos.
               </p>
               <p>
                 La búsqueda permanente de Espacio Impro es consolidar una comunidad artística que cuestione y exprese nuestra cultura, siempre desde una <strong className="text-carmin">perspectiva de género</strong> y un compromiso activo con las luchas sociales actuales.

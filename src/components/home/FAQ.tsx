@@ -7,27 +7,22 @@ const faqs = [
   {
     id: 1,
     question: "¿Necesito experiencia previa para participar en un taller?",
-    answer: "No. En Espacio Impro acompañamos cada proceso desde la exploración libre, sin juicios ni exigencias previas."
+    answer: "No, tenemos talleres desde niveles básicos, así que no es problema puedes aprender. Además, si ya tienes experiencia improvisando también tenemos tallares para que sigas entrenando y descubriendo más."
   },
   {
     id: 2,
-    question: "¿Dónde se realizan los talleres y ensayos?",
-    answer: "En Cusco, Perú. También realizamos encuentros itinerantes y colaboraciones en otras ciudades."
+    question: "¿Qué diferencia a Espacio Impro de otras escuelas de impro?",
+    answer: "Nuestra mirada es teatral, no solo cómica. Exploramos la improvisación como código interpretativo del teatro. Estamos en constante investigación esto nos permite descubrir más recursos, adquirir nuevas herramientas y profundizar en nuestra improvisación."
   },
   {
     id: 3,
-    question: "¿Qué diferencia a Espacio Impro de otras escuelas de impro?",
-    answer: "Nuestra mirada es teatral, no solo cómica. Exploramos la improvisación como código interpretativo, con enfoque ético, corporal y social."
+    question: "¿Cuándo es su próxima función?",
+    answer: "Para enterarte sobre nuestras siguientes funciones siguenos en IG @espacioimpro.cusco"
   },
   {
     id: 4,
-    question: "¿Puedo asistir a las funciones o muestras del elenco?",
-    answer: "Sí, realizamos funciones abiertas y festivales donde compartimos nuestras creaciones con la comunidad."
-  },
-  {
-    id: 5,
     question: "¿Cómo puedo formar parte de la compañía o colaborar?",
-    answer: "Escríbenos por el formulario o a nuestras redes; te contaremos sobre procesos abiertos, convocatorias o talleres de formación."
+    answer: "Escríbenos a nuestras redes; te contaremos sobre nuestros shows, festivales o talleres de formación."
   }
 ];
 
