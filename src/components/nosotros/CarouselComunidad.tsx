@@ -6,23 +6,13 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Array con todas las imágenes disponibles
 const todasLasImagenes = [
-  'Foto-106.jpg',
-  'Foto-12.jpg',
-  'Foto-123.jpg',
-  'Foto-13.jpg',
-  'Foto-137.jpg',
-  'Foto-14.jpg',
-  'Foto-161.jpg',
-  'Foto-23.jpg',
-  'Foto-27.jpg',
-  'Foto-3.jpg',
-  'Foto-37.jpg',
-  'Foto-6.jpg',
-  'Foto-7.jpg',
-  'sin título-4269.jpg',
-  'sin título-4295.jpg',
-  'sin título-4311.jpg',
-  'sin título-4330.jpg'
+  '1730222664246.webp',
+  '6-1.webp',
+  'IMG-20240929-WA0005.webp',
+  'IMG-20250226-WA0048.webp',
+  'IMG_20250522_202705.webp',
+  'IMG_20250522_203009.webp',
+  'IMG-20250525-WA0018.webp'
 ];
 
 // Función para seleccionar imágenes aleatorias
@@ -82,7 +72,7 @@ export default function CarouselComunidad() {
               <AnimatePresence mode="wait">
                 <motion.img
                   key={currentImage}
-                  src={`/images/${imagenesSeleccionadas[currentImage]}`}
+                  src={`/images/nuestra_comunidad/${imagenesSeleccionadas[currentImage]}`}
                   alt="Comunidad Espacio Impro"
                   className="w-full h-full object-cover"
                   loading="lazy"

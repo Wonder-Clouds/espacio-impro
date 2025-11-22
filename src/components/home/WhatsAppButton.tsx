@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 
 export default function WhatsAppButton() {
-  const whatsappNumber = '51984080808';
+  const whatsappNumber = '51997971371';
   const message = encodeURIComponent('¡Hola! Me gustaría saber más sobre Espacio Impro');
   const [isHovered, setIsHovered] = useState(false);
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);

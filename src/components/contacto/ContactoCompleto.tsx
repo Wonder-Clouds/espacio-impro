@@ -64,10 +64,10 @@ export default function ContactoCompleto() {
                   Correo Electrónico
                 </h3>
                 <a 
-                  href="mailto:contacto@espacioimpro.com" 
+                  href="mailto:ee.improcusco@gmail.com" 
                   className="font-inter text-sm text-gris-700 hover:text-acero transition-colors break-all"
                 >
-                  contacto@espacioimpro.com
+                  ee.improcusco@gmail.com
                 </a>
               </div>
             </div>
@@ -84,12 +84,12 @@ export default function ContactoCompleto() {
                   Teléfono / WhatsApp
                 </h3>
                 <a 
-                  href="https://wa.me/51984080808" 
+                  href="https://wa.me/51997971371"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-inter text-sm text-gris-700 hover:text-carmin transition-colors"
                 >
-                  +51 984 080 808
+                  +51 997 971 371
                 </a>
               </div>
             </div>

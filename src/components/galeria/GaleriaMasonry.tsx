@@ -5,28 +5,65 @@ import { useState } from 'react';
 import { X } from 'lucide-react';
 
 // Todas las imágenes disponibles (17 fotos reales) con variedad de tamaños
-  const imagenes = [
-    // Horizontales (ratio > 1.2) - más anchas
-    { src: '/images/Foto-106.jpg', alt: 'Improvisación teatral en acción', ratio: 'wide' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-12.jpg', alt: 'Momento de presentación', ratio: 'wide' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-123.jpg', alt: 'Trabajo en equipo', ratio: 'square' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-13.jpg', alt: 'Escena de impro', ratio: 'square' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-137.jpg', alt: 'Comunidad teatral', ratio: 'wide' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-14.jpg', alt: 'Expresión artística', ratio: 'square' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-161.jpg', alt: 'Performance grupal', ratio: 'wide' }, // 3000x2000 = 1.5
-    { src: '/images/Foto-23.jpg', alt: 'Creatividad colectiva', ratio: 'square' }, // 4940x3952 = 1.25
-    { src: '/images/Foto-27.jpg', alt: 'Energía escénica', ratio: 'square' }, // 4177x3342 = 1.25
-    { src: '/images/Foto-3.jpg', alt: 'Momentos de conexión', ratio: 'square' }, // 3632x2906 = 1.25
-    { src: '/images/Foto-37.jpg', alt: 'Arte en movimiento', ratio: 'square' }, // 3072x2458 = 1.25
-    { src: '/images/Foto-6.jpg', alt: 'Exploración teatral', ratio: 'square' }, // 2795x2268 = 1.23
-    { src: '/images/Foto-7.jpg', alt: 'Juego escénico', ratio: 'wide' }, // 3000x2000 = 1.5
-    
-    // Casi cuadradas (ratio ~1) - verticales
-    { src: '/images/sin título-4269.jpg', alt: 'Encuentro artístico', ratio: 'tall' }, // 3535x3628 = 0.97 (VERTICAL!)
-    { src: '/images/sin título-4295.jpg', alt: 'Experiencia teatral', ratio: 'tall' }, // 3558x3756 = 0.95 (VERTICAL!)
-    { src: '/images/sin título-4311.jpg', alt: 'Diversión y aprendizaje', ratio: 'square' }, // 3965x3767 = 1.05
-    { src: '/images/sin título-4330.jpg', alt: 'Espacio creativo', ratio: 'square' } // 4058x3922 = 1.03
-  ];
+const imagenes = [
+  // Horizontales (más anchas)
+  { src: '/images/galeria/11_20240402_123130_0000.webp', alt: 'Escena teatral', ratio: 'wide' },
+  { src: '/images/galeria/Foto-37.webp', alt: 'Improvisación escénica', ratio: 'wide' },
+  { src: '/images/galeria/IMG-20250220-WA0061.webp', alt: 'Momento de presentación', ratio: 'square' },
+  { src: '/images/galeria/IMG_9951.webp', alt: 'Trabajo en equipo', ratio: 'wide' },
+  { src: '/images/galeria/1730222664204.webp', alt: 'Expresión artística', ratio: 'tall' },
+  { src: '/images/galeria/Foto-42.webp', alt: 'Creatividad en acción', ratio: 'portrait' },
+  { src: '/images/galeria/IMG_20250315_190214.webp', alt: 'Performance grupal', ratio: 'wide' },
+  { src: '/images/galeria/IMG_9964.webp', alt: 'Energía escénica', ratio: 'square' },
+  { src: '/images/galeria/1741538025511.webp', alt: 'Escena de teatro', ratio: 'wide' },
+  { src: '/images/galeria/Foto-50.webp', alt: 'Arte en movimiento', ratio: 'portrait' },
+  { src: '/images/galeria/IMG-20250321-WA0002.webp', alt: 'Momentos de conexión', ratio: 'square' },
+  { src: '/images/galeria/marcos y gaby día 2.webp', alt: 'Juego escénico', ratio: 'wide' },
+
+  // Verticales / casi cuadradas
+  { src: '/images/galeria/1741538025696.webp', alt: 'Encuentro artístico', ratio: 'tall' },
+  { src: '/images/galeria/Foto-53.webp', alt: 'Experiencia teatral', ratio: 'portrait' },
+  { src: '/images/galeria/IMG_20250329_172857.webp', alt: 'Diversión y aprendizaje', ratio: 'square' },
+  { src: '/images/galeria/sin título-4268.webp', alt: 'Espacio creativo', ratio: 'tall' },
+  { src: '/images/galeria/1741538026100.webp', alt: 'Arte en acción', ratio: 'portrait' },
+  { src: '/images/galeria/Foto-57.webp', alt: 'Improvisación grupal', ratio: 'square' },
+  { src: '/images/galeria/IMG_20250404_173519.webp', alt: 'Momentos escénicos', ratio: 'wide' },
+  { src: '/images/galeria/sin título-4292.webp', alt: 'Performance teatral', ratio: 'tall' },
+  { src: '/images/galeria/DANI presentador.webp', alt: 'Presentación artística', ratio: 'portrait' },
+  { src: '/images/galeria/Foto-5.webp', alt: 'Creatividad colectiva', ratio: 'wide' },
+  { src: '/images/galeria/IMG-20250404-WA0026.webp', alt: 'Juego escénico', ratio: 'square' },
+  { src: '/images/galeria/sin título-4311.webp', alt: 'Expresión y diversión', ratio: 'portrait' },
+  { src: '/images/galeria/Dani.webp', alt: 'Improvisación teatral', ratio: 'tall' },
+  { src: '/images/galeria/Foto-64.webp', alt: 'Arte escénico', ratio: 'wide' },
+  { src: '/images/galeria/IMG-20250525-WA0113.webp', alt: 'Momentos creativos', ratio: 'square' },
+  { src: '/images/galeria/sin título-4326.webp', alt: 'Performance en grupo', ratio: 'portrait' },
+  { src: '/images/galeria/Dia 2 Carol.webp', alt: 'Escena divertida', ratio: 'square' },
+  { src: '/images/galeria/Foto-69.webp', alt: 'Juego teatral', ratio: 'wide' },
+  { src: '/images/galeria/IMG_20250718_203035.webp', alt: 'Arte y movimiento', ratio: 'portrait' },
+  { src: '/images/galeria/WhatsApp Image 2025-06-13 at 9.55.17 AM (1).webp', alt: 'Creatividad en escena', ratio: 'square' },
+  { src: '/images/galeria/DSC04135.webp', alt: 'Escena de improvisación', ratio: 'wide' },
+  { src: '/images/galeria/Foto-75.webp', alt: 'Performance grupal', ratio: 'portrait' },
+  { src: '/images/galeria/IMG-20250724-WA0001.webp', alt: 'Momento teatral', ratio: 'tall' },
+  { src: '/images/galeria/WhatsApp Image 2025-06-13 at 9.55.17 AM (2).webp', alt: 'Expresión artística', ratio: 'square' },
+  { src: '/images/galeria/DSC04204.webp', alt: 'Escena escénica', ratio: 'portrait' },
+  { src: '/images/galeria/FOTOS SONDER_20240814_140957_0000.webp', alt: 'Arte y creatividad', ratio: 'wide' },
+  { src: '/images/galeria/IMG_20250829_195454.webp', alt: 'Improvisación teatral', ratio: 'square' },
+  { src: '/images/galeria/WhatsApp Image 2025-06-13 at 9.55.21 AM (3).webp', alt: 'Performance grupal', ratio: 'portrait' },
+  { src: '/images/galeria/DSC04216.webp', alt: 'Arte escénico', ratio: 'tall' },
+  { src: '/images/galeria/FOTOS SONDER_20240814_140957_0001.webp', alt: 'Momento creativo', ratio: 'square' },
+  { src: '/images/galeria/IMG_20250829_200500.webp', alt: 'Juego teatral', ratio: 'wide' },
+  { src: '/images/galeria/WhatsApp Image 2025-06-15 at 8.29.02 AM (1).webp', alt: 'Creatividad en escena', ratio: 'portrait' },
+  { src: '/images/galeria/FOTOS SONDER_20240814_140957_0004.webp', alt: 'Expresión artística', ratio: 'wide' },
+  { src: '/images/galeria/IMG_20250829_202059.webp', alt: 'Improvisación teatral', ratio: 'square' },
+  { src: '/images/galeria/WhatsApp Image 2025-07-20 at 6.42.41 PM (1).webp', alt: 'Performance grupal', ratio: 'portrait' },
+  { src: '/images/galeria/FOTOS SONDER_20240814_140957_0006.webp', alt: 'Arte escénico', ratio: 'wide' },
+  { src: '/images/galeria/IMG_20250829_203304.webp', alt: 'Momentos creativos', ratio: 'tall' },
+  { src: '/images/galeria/WhatsApp Image 2025-07-20 at 6.42.45 PM (2).webp', alt: 'Escena teatral', ratio: 'portrait' },
+  { src: '/images/galeria/Foto-169.webp', alt: 'Improvisación escénica', ratio: 'square' },
+  { src: '/images/galeria/Foto.webp', alt: 'Arte en acción', ratio: 'wide' }
+];
+
+
 
 export default function GaleriaMasonry() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);

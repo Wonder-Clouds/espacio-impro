@@ -5,11 +5,31 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const imagenes = [
-  'Foto-106.jpg',
-  'Foto-123.jpg',
-  'Foto-137.jpg',
-  'Foto-161.jpg',
-  'Foto-14.jpg'
+  '17_20240402_123131_0006.webp',
+  'dani.webp',
+  'Foto-39.webp',
+  'IMG_20250515_202048.webp',
+  'WhatsApp Image 2025-06-13 at 9.55.23 AM (2).webp',
+  '1730222664463.webp',
+  'Dia 3_5.webp',
+  'FOTOS SONDER_20240814_140957_0003.webp',
+  'IMG-20250614-WA0048.webp',
+  'WhatsApp Image 2025-06-15 at 8.29.05 AM.webp',
+  '1730223165037.webp',
+  'DSC04109.webp',
+  'IMG_20240530_232827.webp',
+  'IMG_20250829_200203.webp',
+  'WhatsApp Image 2025-07-20 at 6.42.45 PM.webp',
+  '1731981090754.webp',
+  'Foto-14.webp',
+  'IMG-20250324-WA0015.webp',
+  'IMG_9930.webp',
+  'WhatsApp Image 2025-07-20 at 6.42.55 PM (2).webp',
+  '1741538025965.webp',
+  'Foto-31.webp',
+  'IMG_20250329_151940.webp',
+  'IMG_9949.webp',
+  'WhatsApp Image 2025-07-20 at 6.42.58 PM (1).webp'
 ];
 
 const frases = [
@@ -123,7 +143,7 @@ export default function HeroNosotros() {
                 <AnimatePresence mode="wait">
                   <motion.img
                     key={currentImage}
-                    src={`/images/${imagenes[currentImage]}`}
+                    src={`/images/nosotros/${imagenes[currentImage]}`}
                     alt="Espacio Impro - Compañía teatral"
                     className="w-full h-full object-cover"
                     loading="lazy"

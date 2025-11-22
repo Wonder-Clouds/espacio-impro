@@ -6,23 +6,13 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Todas las imágenes incluyendo cuadradas para metodología
 const imagenesDisponibles = [
-  'Foto-106.jpg',
-  'Foto-12.jpg',
-  'Foto-123.jpg',
-  'Foto-13.jpg',
-  'Foto-137.jpg',
-  'Foto-14.jpg',
-  'Foto-161.jpg',
-  'Foto-7.jpg',
-  'Foto-23.jpg',
-  'Foto-27.jpg',
-  'Foto-3.jpg',
-  'Foto-37.jpg',
-  'Foto-6.jpg',
-  'sin título-4269.jpg',  // Cuadradas también funcionan aquí
-  'sin título-4295.jpg',
-  'sin título-4311.jpg',
-  'sin título-4330.jpg'
+  'IMG_20250515_195645.webp',
+  'IMG-20251003-WA0031.webp',
+  'IMG-20251028-WA0035.webp',
+  'WhatsApp Image 2025-07-20 at 6.42.55 PM (4).webp',
+  'IMG_20250515_204459.webp',
+  'IMG-20251003-WA0046.webp',
+  'sin título-4352.webp'
 ];
 
 // Seleccionar 5 imágenes aleatorias para el carrusel
@@ -107,7 +97,7 @@ export default function Metodologia() {
               <AnimatePresence mode="wait">
                 <motion.img
                   key={currentImage}
-                  src={`/images/${imagenesCarousel[currentImage]}`}
+                  src={`/images/nuestra_metodologia/${imagenesCarousel[currentImage]}`}
                   alt="Proceso pedagógico en Espacio Impro"
                   className="w-full h-full object-cover"
                   loading="lazy"

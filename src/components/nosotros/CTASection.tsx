@@ -45,7 +45,7 @@ export default function CTASection() {
           >
             {/* Botón WhatsApp */}
             <motion.a
-              href="https://wa.me/51984080808"
+              href="https://wa.me/51997971371"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center gap-3 px-8 py-4 bg-carmin text-white font-gliker text-lg rounded-full overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"

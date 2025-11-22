@@ -17,19 +17,16 @@ const frases = [
 
 // Lista de imágenes con mejor relación de aspecto para el carrusel (horizontales 3:2)
 const todasLasImagenes = [
-  'Foto-106.jpg',    // 3000x2000
-  'Foto-12.jpg',     // 3000x2000
-  'Foto-123.jpg',    // 3000x2000
-  'Foto-13.jpg',     // 3000x2000
-  'Foto-137.jpg',    // 3000x2000
-  'Foto-14.jpg',     // 3000x2000
-  'Foto-161.jpg',    // 3000x2000
-  'Foto-7.jpg',      // 3000x2000
-  'Foto-23.jpg',     // 4940x3952 (más cuadrada pero incluida)
-  'Foto-27.jpg',     // 4177x3342
-  'Foto-3.jpg',      // 3632x2906
-  'Foto-37.jpg',     // 3072x2458
-  'Foto-6.jpg'       // 2795x2268
+  '1730222663979.webp',
+  'DSC04105.webp',
+  'IMG_20250108_190730.webp',
+  'IMG_20250829_202101.webp',
+  'impro-73.webp',
+  '4-1.webp',
+  'IMG_20240530_232848.webp',
+  'IMG-20250220-WA0008.webp',
+  'IMG-20251028-WA0048.webp',
+  'WhatsApp Image 2025-07-20 at 6.42.51 PM.webp'
 ];
 
 // Seleccionar 5 imágenes aleatorias para el carousel
@@ -57,7 +54,7 @@ export default function CarouselVisual() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentFrase((prev) => (prev + 1) % frases.length);
-    }, 3000);
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -120,7 +117,7 @@ export default function CarouselVisual() {
                 transition={{ duration: 0.7 }}
               >
                 <img 
-                  src={`/images/${imagenesCarousel[currentImage]}`} 
+                  src={`/images/inicio/${imagenesCarousel[currentImage]}`} 
                   alt="Espacio Impro en acción"
                   className="w-full h-full object-cover"
                   loading="lazy"
