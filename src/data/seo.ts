@@ -11,8 +11,6 @@ export const homepageSEO = {
     "arte en cusco",
     "impro cusco"
   ],
-  url: "https://espacioimprocusco.com",
-  image: "https://espacioimprocusco.com/logo.png",
   openGraph: {
     basic: {
       title: "Espacio Impro Cusco | Teatro y Improvisación en Cusco",
@@ -42,8 +40,6 @@ export const nosotrosSEO = {
     "formación actorxs improvisadorxs",
     "arte y transformación social"
   ],
-  url: "https://espacioimprocusco.com/nosotros",
-  image: "https://espacioimprocusco.com/logo.png",
   openGraph: {
     basic: {
       title: "Nosotros | Espacio Impro Cusco",
@@ -60,7 +56,6 @@ export const nosotrosSEO = {
   }
 };
 
-
 export const galeriaSEO = {
   title: "Galería | Espacio Impro Cusco",
   description: "Explora la galería de Espacio Impro Cusco con fotos de talleres, funciones y momentos de improvisación teatral en Cusco.",
@@ -73,8 +68,6 @@ export const galeriaSEO = {
     "talleres teatrales",
     "fotografía teatro cusco"
   ],
-  url: "https://espacioimprocusco.com/galeria",
-  image: "https://espacioimprocusco.com/logo.png",
   openGraph: {
     basic: {
       title: "Galería | Espacio Impro Cusco",
@@ -91,7 +84,6 @@ export const galeriaSEO = {
   }
 };
 
-
 export const contactSEO = {
   title: "Contáctanos | Espacio Impro Cusco",
   description: "Escríbenos, visítanos o únete a un taller. Espacio Impro Cusco, Escuela y Compañía Teatral en Cusco, Perú.",
@@ -104,8 +96,6 @@ export const contactSEO = {
     "eventos corporativos teatro",
     "arte escénico cusco"
   ],
-  url: "https://espacioimprocusco.com/contactanos",
-  image: "https://espacioimprocusco.com/logo.png",
   openGraph: {
     basic: {
       title: "Contáctanos | Espacio Impro Cusco",
