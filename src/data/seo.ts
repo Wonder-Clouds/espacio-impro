@@ -15,7 +15,7 @@ export const homepageSEO = {
     basic: {
       title: "Espacio Impro Cusco | Teatro y Improvisación en Cusco",
       type: "website",
-      image: "https://espacioimprocusco.com/logo.png",
+      image: "https://espacioimprocusco.com/logo_shared.png",
       url: "https://espacioimprocusco.com"
     },
     optional: {
@@ -44,7 +44,7 @@ export const nosotrosSEO = {
     basic: {
       title: "Nosotros | Espacio Impro Cusco",
       type: "website",
-      image: "https://espacioimprocusco.com/logo.png",
+      image: "https://espacioimprocusco.com/logo_shared.png",
       url: "https://espacioimprocusco.com/nosotros"
     },
     optional: {
@@ -72,7 +72,7 @@ export const galeriaSEO = {
     basic: {
       title: "Galería | Espacio Impro Cusco",
       type: "website",
-      image: "https://espacioimprocusco.com/logo.png",
+      image: "https://espacioimprocusco.com/logo_shared.png",
       url: "https://espacioimprocusco.com/galeria"
     },
     optional: {
@@ -100,7 +100,7 @@ export const contactSEO = {
     basic: {
       title: "Contáctanos | Espacio Impro Cusco",
       type: "website",
-      image: "https://espacioimprocusco.com/logo.png",
+      image: "https://espacioimprocusco.com/logo_shared.png",
       url: "https://espacioimprocusco.com/contactanos"
     },
     optional: {
